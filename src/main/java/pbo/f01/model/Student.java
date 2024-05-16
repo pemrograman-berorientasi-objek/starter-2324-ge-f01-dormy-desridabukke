@@ -11,6 +11,7 @@ public class Student {
     private String name;
     private int entranceYear;
     private String gender;
+    
 
     @ManyToOne
     @JoinColumn(name = "dorm_id")
